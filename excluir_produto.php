@@ -66,21 +66,21 @@ table {
 th, td {
     padding: 12px 10px;
     text-align: center;
-    border: 3px solid rgb(26, 138, 101);
+    border: 3px solid rgb(65, 172, 199);
 }
 
 th {
     background:rgb(31, 110, 134);
-    color: #fff;
+    color:rgb(51, 124, 192);
 }
 
 tr:nth-child(even) {
     background:rgb(25, 105, 151);
-    color: #2E294E;
+    color:rgb(7, 3, 70);
 }
 
 tr:nth-child(odd) {
-    background:rgb(39, 197, 110);
+    background:rgb(17, 70, 105);
 }
 
 a {
@@ -99,7 +99,7 @@ a {
     display: block;
     text-align: center;
     margin: 30px auto 0 auto;
-    color:rgb(43, 177, 103);
+    color:rgb(77, 223, 198);
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1em;

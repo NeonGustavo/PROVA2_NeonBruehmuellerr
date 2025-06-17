@@ -50,19 +50,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #011638;
-    color: #E8C1C5;
+    color:rgb(2, 19, 252);
     margin: 0;
     padding: 0;
 }
 
 h2 {
     text-align: center;
-    color:rgb(16, 131, 131);
+    color:rgb(25, 105, 151);
     margin-top: 30px;
 }
 
 form {
-    background:rgb(51, 41, 119);
+    background:rgb(31, 110, 134);
     max-width: 400px;
     margin: 40px auto 25px auto;
     padding: 28px 30px 18px 30px;
@@ -73,7 +73,7 @@ form {
 label {
     display: block;
     margin-bottom: 7px;
-    color:rgb(57, 134, 11);
+    color:rgb(16, 14, 124);
     font-weight: bold;
 }
 
@@ -99,7 +99,7 @@ input[type="number"]:focus {
 
 button[type="submit"],
 button[type="reset"] {
-    background:rgb(45, 146, 36);
+    background:rgb(33, 87, 148);
     color: #fff;
     border: none;
     padding: 10px 22px;
@@ -126,7 +126,7 @@ a {
     transition: color 0.2s;
 }
 a:hover {
-    color:rgb(17, 131, 102);
+    color:rgb(25, 156, 124);
 }
 
 #sugestoes {

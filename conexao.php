@@ -1,3 +1,4 @@
+--Neon Gustavo Bruehmueller--
 <?php
 // Configurações para a conexão com o banco de dados
 
@@ -18,7 +19,9 @@ $user = 'root';
 // $pass: Define a senha para o usuário do banco de dados.
 // '' (uma string vazia) significa que não há senha configurada para o usuário 'root'.
 // Isso é comum em configurações locais de desenvolvimento, mas **altamente inseguro** para servidores de produção.
-$pass = '';
+$pass = 'root';
+
+$port = '3307';
 
 // O bloco try...catch é usado para tratamento de erros.
 // Se algo der errado ao tentar conectar ao banco de dados (dentro do 'try'),
@@ -34,7 +37,7 @@ try {
     //   - "host=$host": o servidor do banco de dados (o valor da variável $host, ou seja, 'localhost').
     //   - "dbname=$dbname": o nome do banco de dados (o valor da variável $dbname, ou seja, 'senai_login').
     // As variáveis $user e $pass são o nome de usuário e a senha para autenticação.
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname;port=$port", $user, $pass);
 
     // Configura o PDO para lançar exceções em caso de erros.
     // PDO::ATTR_ERRMODE: Define o modo de relatório de erros.

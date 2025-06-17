@@ -1,3 +1,4 @@
+--Neon Gustavo Bruehmueller--
 <?php
 session_start();
 require 'conexao.php';
@@ -47,7 +48,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
 
 h2 {
     text-align: center;
-    color:rgb(34, 146, 118);
+    color:rgb(26, 69, 148);
     margin-top: 30px;
 }
 
@@ -79,7 +80,7 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd) {
-    background:rgb(29, 172, 141);
+    background:rgb(39, 197, 110);
 }
 
 a {

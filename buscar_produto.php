@@ -40,19 +40,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['busca'])) {
         body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #011638;
-    color: #E8C1C5;
+    color:rgb(153, 35, 46);
     margin: 0;
     padding: 0;
 }
 
 h2 {
     text-align: center;
-    color:rgb(27, 122, 151);
+    color:rgb(41, 194, 168);
     margin-top: 30px;
 }
 
 form {
-    background:rgb(19, 133, 57);
+    background:rgb(50, 88, 192);
     max-width: 400px;
     margin: 30px auto 20px auto;
     padding: 22px 28px 16px 28px;
@@ -63,7 +63,7 @@ form {
 label {
     display: block;
     margin-bottom: 8px;
-    color:rgb(30, 173, 49);
+    color:rgb(21, 168, 112);
     font-weight: bold;
 }
 
@@ -73,7 +73,7 @@ input[type="text"] {
     margin-bottom: 18px;
     border: 1px solid rgb(19, 65, 87);
     border-radius: 8px;
-    background:rgb(11, 107, 59);
+    background:rgb(255, 255, 255);
     color:rgb(47, 131, 103);
     font-size: 1em;
     box-sizing: border-box;
@@ -125,8 +125,8 @@ th {
 }
 
 tr:nth-child(even) {
-    background:rgb(57, 93, 139);
-    color:rgb(93, 36, 168);
+    background:rgb(40, 168, 207);
+    color:rgb(199, 159, 29);
 }
 
 tr:nth-child(odd) {

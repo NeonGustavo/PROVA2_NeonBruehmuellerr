@@ -67,31 +67,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <style>
         body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(83, 175, 95);
-    color:rgb(13, 121, 76);
+    background-color:rgb(125, 199, 135);
+    color:rgb(39, 133, 92);
     margin: 0;
     padding: 0;
 }
 
 h2 {
     text-align: center;
-    color:rgb(45, 160, 180);
+    color:rgb(25, 27, 151);
     margin-top: 30px;
 }
 
 form {
-    background:rgb(32, 156, 104);
+    background:rgb(60, 124, 167);
     max-width: 400px;
     margin: 40px auto;
     padding: 30px 30px 20px 30px;
     border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(23, 122, 23, 0.15);
+    box-shadow: 0 4px 20px rgba(51, 196, 188, 0.67);
 }
 
 label {
     display: block;
     margin-bottom: 6px;
-    color:rgb(30, 126, 62);
+    color:rgb(44, 177, 137);
     font-weight: bold;
 }
 
@@ -101,9 +101,9 @@ select {
     width: 100%;
     padding: 8px;
     margin-bottom: 18px;
-    border: 1px solid rgb(34, 61, 151);
+    border: 1px solid rgb(95, 100, 116);
     border-radius: 8px;
-    background:rgb(19, 136, 54);
+    background:rgb(206, 204, 219);
     color: #2E294E;
     font-size: 1em;
     box-sizing: border-box;

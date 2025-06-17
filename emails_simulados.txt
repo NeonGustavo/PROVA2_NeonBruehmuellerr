@@ -50,3 +50,7 @@ Para: ana@empresa.com
 Olá! Sua nova senha temporária é: QitS4zGC
 
 ----------------------
+Para: sergio@sergio
+Olá! Sua nova senha temporária é: OZBFA1kM
+
+----------------------

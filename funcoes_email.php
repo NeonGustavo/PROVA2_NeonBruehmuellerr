@@ -1,3 +1,4 @@
+--Neon Gustavo Bruehmueller--
 <?php
 
 // Define uma função chamada 'gerarSenhaTemporaria'.

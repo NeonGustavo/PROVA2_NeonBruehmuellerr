@@ -1,3 +1,5 @@
+--Neon Gustavo Bruehmueller
+
 <?php
 session_start();
 require 'conexao.php';
@@ -82,7 +84,7 @@ input[type="number"] {
     margin-bottom: 18px;
     border: 1px solidrgb(49, 119, 9);
     border-radius: 8px;
-    background:rgb(212, 223, 70);
+    background:rgb(255, 255, 255);
     color:rgb(36, 117, 150);
     font-size: 1em;
     box-sizing: border-box;
